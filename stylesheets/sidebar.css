@@ -1,0 +1,27 @@
+nav {
+  width: 280px;
+  position: fixed;
+  /* background-color: brown; */
+  left: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  opacity: 0.2;
+  transition: 0.2s;
+}
+nav:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+nav h2 {
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+nav a:hover {
+  color: black;
+}
+nav ol > ol {
+  margin-left: 20px;
+}
